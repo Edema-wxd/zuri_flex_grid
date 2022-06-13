@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_g.css">
+    <style>
+        .grid-container {
+            display: grid;
+            width: 1200px;
+            height: 800px;
+            grid-template-areas:
+            "re re re re yell yell"
+            "re re re re yell yell"
+            "gre gre gre blu1 blu1 blu1"
+            "gre gre gre blu2 blu2 blu2";
+            gap: 10px;
+            background-color: #000000;
+            padding: 30px;
+            
+
+        }
+        .red{
+            grid-area: re;
+            background-color: red;
+            overflow: auto;
+            height: 400px;
+        }
+        .yell{
+            grid-area: yell;
+            background-color: yellow;
+            overflow: auto;
+            height: 400px;
+        }
+        .gre{
+            grid-area: gre;
+            background-color: green;
+            overflow: auto;
+            height: 410px;
+        }
+        .blu1{
+            grid-area: blu1;
+            background-color: blue;
+            overflow: auto;
+            height: 200px;
+        }
+        .blu2{
+            grid-area: blu2;
+            background-color: blue;
+            overflow: auto;
+            height: 200px;
+        }
+
+    </style>
+    <title>Zuri Grid</title>
+</head>
+<body class="grid-container">
+    <div class="red" > </div>
+    <div class="yell"> </div>
+    <div class="gre"> </div>
+    <div class="blu1"> </div>
+    <div class="blu2"> </div>
+</body>
+</html>
