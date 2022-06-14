@@ -1,0 +1,76 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+footer{
+    margin-top: 5%;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    width: 1200px;
+    height: 820px;
+    grid-template-areas:
+    "re re re re yell yell"
+    "re re re re yell yell"
+    "gre gre gre blu1 blu1 blu1"
+    "gre gre gre blu2 blu2 blu2";
+    gap: 10px;
+    background-color: #000000;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.red{
+    grid-area: re;
+    background-color: red;
+    overflow: auto;
+    height: 400px;
+}
+.yell{
+    grid-area: yell;
+    background-color: yellow;
+    overflow: auto;
+    height: 400px;
+}
+.gre{
+    grid-area: gre;
+    background-color: green;
+    overflow: auto;
+    height: 410px;
+}
+.blu1{
+    grid-area: blu1;
+    background-color: blue;
+    overflow: auto;
+    height: 200px;
+}
+.blu2{
+    grid-area: blu2;
+    background-color: blue;
+    overflow: auto;
+    height: 200px;
+}
+
+.btn{
+    color: #000000;
+    width: 150px;
+    font-size: large;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 20px;
+    border: solid;
+    border-color: #000000;
+    border-width: 1px;
+    padding:5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu{
+    margin-bottom: 3%;
+}
+
+
+
