@@ -1,7 +1,10 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
 }
-
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+}
 footer{
     margin-top: 5%;
     text-align: center;
@@ -22,13 +25,13 @@ footer{
     margin-bottom: 50px;
 }
 .btn-lux{
-    color: #074c46;
+    color: hsl(179, 100%, 13%);
 }
 .btn-sed{
-    color: rgb(227, 157, 29);
+    color: hsl(31, 77%, 52%);
 }
 .btn-suv{
-    color: #2c857d;
+    color: hsl(184, 100%, 22%);
 }
 .btn-sed, .btn-suv, .btn-lux, .btn {
     width: 150px;
@@ -60,20 +63,20 @@ footer{
 
 .sedan{
     padding: 20px;
-    background-color: rgb(227, 157, 29);
+    background-color: hsl(31, 77%, 52%);
     color: #ffffff;
 
 }
 
 .suvs{
     padding: 20px;
-    background-color: #2c857d;
+    background-color:hsl(184, 100%, 22%);
     color: #ffffff;
 }
 
 .lux{
     padding: 20px;
-    background-color: #074c46;
+    background-color: hsl(179, 100%, 13%);
     color: #ffffff;
 }
 
